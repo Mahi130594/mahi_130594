@@ -1,7 +1,7 @@
 ---
- Host: Cloud Server
- become : yes
- task1:
+- hosts: all
+  become : yes
+  tasks:
   - name: Install tree
     apt:
      name: tree
