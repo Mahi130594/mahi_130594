@@ -1,0 +1,14 @@
+---
+- Host: Clou Servers
+  become: yes
+  task1:
+   - name: Install apache2
+     apt: 
+      name: Apache2
+      status: present
+
+   - name: start web Server 
+     Service:
+       name: Apache2
+       state: start
+     

@@ -1,0 +1,14 @@
+---
+ - Servers: 
+    - NODE1:
+       name:
+       IP: 
+       RAM:
+       CPU:
+       Storage:
+    - NODE2:
+       name:
+       IP:
+       RAM:
+       CPU:
+       Storage:  

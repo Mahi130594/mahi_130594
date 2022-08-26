@@ -1,0 +1,9 @@
+---
+ Host: Cloud Server
+ become : yes
+ task1:
+  - name: Install tree
+    apt:
+     name: tree
+     status: present
+ 
